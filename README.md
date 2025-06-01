@@ -1,1 +1,1 @@
-# Webpack Template
+# Restaurant Page
