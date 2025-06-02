@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #16171d;
+}
+
+header nav {
+  display: flex;
+  gap: 32px;
+  padding-top: 10px;
+}
+
+header nav button {
+  cursor: pointer;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-bottom: none;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  background-color: transparent;
+  padding: 16px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+header nav button:hover {
+  transition-duration: 500ms;
+  background-color: rgba(56, 58, 63, 0.5);
+}
