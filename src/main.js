@@ -1,5 +1,5 @@
 import "./base.css";
 
-import { home } from "./home";
+import menu from "./menu";
 
-document.getElementById("content").appendChild(home);
+document.getElementById("content").appendChild(menu);
