@@ -1,0 +1,48 @@
+.menu {
+  color: #fff;
+  display: grid;
+  gap: 56px;
+}
+
+.menu-title {
+  padding: 12px;
+  background-color: #272831;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.menu-title p {
+  font-size: 2rem;
+}
+
+.beverages-header,
+.main-dishes-header {
+  padding: 12px;
+  background-color: #272831;
+  border-radius: 6px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.beverages-header p,
+.main-dishes-header p {
+  font-size: 1.5rem;
+}
+
+.beverages,
+.main-dishes {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 60%;
+  margin: auto;
+}
+
+.beverages > div,
+.main-dishes > div {
+  display: grid;
+  gap: 12px;
+  padding: 20px;
+  background-color: #272831;
+}

@@ -2,6 +2,7 @@
 @import "./header.css";
 @import "./content.css";
 @import "./home.css";
+@import "./menu.css";
 
 * {
   font-family:
