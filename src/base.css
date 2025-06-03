@@ -18,8 +18,5 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
   background-color: #272831;
 }
