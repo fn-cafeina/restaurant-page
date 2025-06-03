@@ -1,6 +1,7 @@
 @import "minireset.css";
 @import "./header.css";
 @import "./content.css";
+@import "./home.css";
 
 * {
   font-family:

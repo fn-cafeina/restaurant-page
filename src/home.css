@@ -1,0 +1,63 @@
+.home {
+  color: #fff;
+  display: grid;
+  gap: 56px;
+}
+
+.home-title {
+  padding: 12px;
+  background-color: #272831;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.home-title p {
+  font-size: 2rem;
+}
+
+.home-card-1 {
+  display: grid;
+  gap: 24px;
+  width: 80%;
+  margin: auto;
+  background-color: #272831;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.home-card-1 p:last-child {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.home-card-2 {
+  display: grid;
+  gap: 24px;
+  width: 60%;
+  margin: auto;
+  background-color: #272831;
+  padding: 12px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.home-card-2 > p:first-child {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.home-card-3 {
+  display: grid;
+  gap: 24px;
+  width: 50%;
+  margin: auto;
+  background-color: #272831;
+  padding: 12px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.home-card-3 > p:first-child {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
