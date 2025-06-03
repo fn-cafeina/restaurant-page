@@ -1,0 +1,33 @@
+.about {
+  color: #fff;
+  display: grid;
+  gap: 56px;
+}
+
+.about-title {
+  padding: 12px;
+  background-color: #272831;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.about-title p {
+  font-size: 2rem;
+}
+
+.about-card-1,
+.about-card-2,
+.about-card-3 {
+  background-color: #272831;
+  padding: 20px;
+  display: grid;
+  gap: 12px;
+  width: 80%;
+  margin: auto;
+}
+
+.about-card-1 > p,
+.about-card-2 > p,
+.about-card-3 > p {
+  font-size: 1.4rem;
+}
