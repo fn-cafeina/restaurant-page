@@ -1,6 +1,6 @@
 @import "minireset.css";
-
 @import "./header.css";
+@import "./content.css";
 
 * {
   font-family:
@@ -15,4 +15,11 @@
     "Open Sans",
     "Helvetica Neue",
     sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: #272831;
 }
