@@ -1,0 +1,283 @@
+/*! minireset.css v0.0.7 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  background-color: #16171d;
+}
+
+header nav {
+  display: flex;
+  gap: 32px;
+  padding-top: 10px;
+}
+
+header nav button {
+  cursor: pointer;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-bottom: none;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  background-color: transparent;
+  padding: 16px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+header nav button:hover {
+  transition-duration: 500ms;
+  background-color: rgba(56, 58, 63, 0.5);
+}
+
+#content {
+  width: min(80%, 800px);
+  padding: 32px;
+  background-color: #16171d;
+  margin: 32px auto;
+  border-radius: 6px;
+}
+
+.home {
+  color: #fff;
+  display: grid;
+  gap: 56px;
+}
+
+.home-title {
+  padding: 12px;
+  background-color: #272831;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.home-title p {
+  font-size: 2rem;
+}
+
+.home-card-1 {
+  display: grid;
+  gap: 24px;
+  width: 80%;
+  margin: auto;
+  background-color: #272831;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.home-card-1 p:last-child {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.home-card-2 {
+  display: grid;
+  gap: 24px;
+  width: 60%;
+  margin: auto;
+  background-color: #272831;
+  padding: 12px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.home-card-2 > p:first-child {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.home-card-3 {
+  display: grid;
+  gap: 24px;
+  width: 50%;
+  margin: auto;
+  background-color: #272831;
+  padding: 12px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.home-card-3 > p:first-child {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.menu {
+  color: #fff;
+  display: grid;
+  gap: 56px;
+}
+
+.menu-title {
+  padding: 12px;
+  background-color: #272831;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.menu-title p {
+  font-size: 2rem;
+}
+
+.beverages-header,
+.main-dishes-header {
+  padding: 12px;
+  background-color: #272831;
+  border-radius: 6px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.beverages-header p,
+.main-dishes-header p {
+  font-size: 1.5rem;
+}
+
+.beverages,
+.main-dishes {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 60%;
+  margin: auto;
+}
+
+.beverages > div,
+.main-dishes > div {
+  display: grid;
+  gap: 12px;
+  padding: 20px;
+  background-color: #272831;
+}
+
+.about {
+  color: #fff;
+  display: grid;
+  gap: 56px;
+}
+
+.about-title {
+  padding: 12px;
+  background-color: #272831;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.about-title p {
+  font-size: 2rem;
+}
+
+.about-card-1,
+.about-card-2,
+.about-card-3 {
+  background-color: #272831;
+  padding: 20px;
+  display: grid;
+  gap: 12px;
+  width: 80%;
+  margin: auto;
+}
+
+.about-card-1 > p,
+.about-card-2 > p,
+.about-card-3 > p {
+  font-size: 1.4rem;
+}
+
+* {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+body {
+  background-color: #272831;
+}
+
+
+/*# sourceMappingURL=app.css.map*/
