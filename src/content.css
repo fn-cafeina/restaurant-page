@@ -1,7 +1,7 @@
 #content {
-  width: 80%;
+  width: min(80%, 800px);
   padding: 32px;
   background-color: #16171d;
-  margin: auto;
+  margin: 32px auto;
   border-radius: 6px;
 }
