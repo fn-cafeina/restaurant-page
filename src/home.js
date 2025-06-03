@@ -45,4 +45,4 @@ const home = document.createElement("div");
 home.classList.add("home");
 home.append(homeTitle, homeCard1, homeCard2, homeCard3);
 
-export { home };
+export default home;
